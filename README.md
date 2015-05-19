@@ -24,6 +24,12 @@ by multiplying it by a given number (carved into the item/node)
 
 # API
  - `gravity_items.register_item(name, number)`
-  * Registers a gravity item
+  * Registers a gravity item : `gravity_items:name`
   * `name` is the written equivalent of `number` (eg. null = 0, dot_one = 0.1)
   * `number` is the multiplier applied to
+
+ - `gravity_items.register_node(name, number, radius)`
+  * Register a gravity node : `gravity_items:name_radius_node`
+  * `name`, see above
+  * `number`, see above
+  * `radius`, radius in which the node will change gravity multiplier
